@@ -3,17 +3,17 @@ import styled from "styled-components";
 import { StyledButton } from "../styles/StyledButton";
 
 const StyledItem = styled.li`
-    text-align: center;
-    border-radius: 20px;
-    padding: 30px 50px;
     background: salmon;
+    padding: 30px 50px;
+    border-radius: 20px;
+    text-align: center;
 `;
 
 const StyledEmoji = styled.span`
     display: block;
-    font-size: 32px;
     margin-bottom: 42px;
     transition: transform 0.3s;
+    font-size: 32px;
     ${({ $zoomed }) => $zoomed && "transform: scale(2);"}
 `;
 
