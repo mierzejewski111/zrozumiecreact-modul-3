@@ -1,5 +1,4 @@
 import { Item } from "../Item/Item";
-import styled from "styled-components";
 
 const emojis = ["🚀", "🎶", "🎁", "🎉", "✨"];
 
