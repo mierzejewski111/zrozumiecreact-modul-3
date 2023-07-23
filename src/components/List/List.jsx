@@ -7,10 +7,10 @@ export function List() {
             <button
                 className={styles.btn}
                 onClick={() => {
-                    alert(`Ilość emoji: ${emojis.length}`);
+                    alert(`Liczba emoji: ${emojis.length}`);
                 }}
             >
-                Pokaż ilość emoji
+                Pokaż liczbę emoji
             </button>
             <ul className={styles.list}>
                 {emojis.map((emoji) => (

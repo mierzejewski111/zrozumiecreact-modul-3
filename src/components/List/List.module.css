@@ -6,14 +6,16 @@
 }
 
 .btn {
-    color: salmon;
     background: transparent;
     border: solid 1px;
     padding: 12px;
     border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
     cursor: pointer;
     width: 100px;
+    color: salmon;
+    transition:
+        background 0.3s,
+        color 0.3s;
     margin: 30px;
 }
 
