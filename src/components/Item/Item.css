@@ -12,6 +12,7 @@
     display: block;
     margin-bottom: 42px;
     font-size: 32px;
+    transition: transform 0.3s;
 }
 
 .emoji.zoomed {
