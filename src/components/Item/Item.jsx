@@ -21,15 +21,15 @@ export function Item({ emoji, className }) {
     const [zoomed, setZoomed] = useState(false);
 
     return (
-        <StyledItem className={className}>
-            <StyledEmoji $zoomed={zoomed}>{emoji}</StyledEmoji>
-            <StyledButton
+        <li className={className}>
+            <span>{emoji}</span>
+            <button
                 onClick={() => {
                     setZoomed((wasZoomed) => !wasZoomed);
                 }}
             >
                 {zoomed ? "Oddal" : "Przybliż"}
-            </StyledButton>
-        </StyledItem>
+            </button>
+        </li>
     );
 }
